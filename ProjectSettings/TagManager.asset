@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+EditMain_Yuri
+  tags:
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -12,8 +14,9 @@ TagManager:
   - Water
   - UI
   - 
-  - 
+EditMain_Yuri
   - Ground
+  - 
   - 
   - 
   - 
