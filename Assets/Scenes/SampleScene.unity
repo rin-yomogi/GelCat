@@ -562,7 +562,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 0121c11f725f64c69b2d672a70558723, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -660,6 +660,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1458468162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458468153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74de786e08a38184fb1014794727f43b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpPower: 10
 --- !u!1001 &1671446850
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -682,11 +695,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3952080b154254f5d89543abf9e2fb85, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.58456
+      value: 16.25
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3952080b154254f5d89543abf9e2fb85, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.3
+      value: 7.79
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3952080b154254f5d89543abf9e2fb85, type: 3}
       propertyPath: m_LocalPosition.z
@@ -724,6 +737,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3952080b154254f5d89543abf9e2fb85, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 72166acf7e75445af8848238a418266d, type: 2}
     - target: {fileID: 919132149155446097, guid: 3952080b154254f5d89543abf9e2fb85, type: 3}
       propertyPath: m_Name
       value: GelCat
@@ -732,6 +749,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3952080b154254f5d89543abf9e2fb85, type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 1458468162}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3952080b154254f5d89543abf9e2fb85, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1458468158}
