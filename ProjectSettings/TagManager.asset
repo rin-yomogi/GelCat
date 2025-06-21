@@ -3,7 +3,6 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-EditMain_Yuri
   tags:
   - Ground
   layers:
@@ -14,12 +13,11 @@ EditMain_Yuri
   - Water
   - UI
   - 
-EditMain_Yuri
   - Ground
   - 
-  - 
-  - 
-  - 
+  - sponge
+  - goal point
+  - secret
   - 
   - 
   - 
@@ -46,10 +44,3 @@ EditMain_Yuri
     locked: 0
   m_RenderingLayers:
   - Default
-  - Light Layer 1
-  - Light Layer 2
-  - Light Layer 3
-  - Light Layer 4
-  - Light Layer 5
-  - Light Layer 6
-  - Light Layer 7
